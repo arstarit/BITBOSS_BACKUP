@@ -4,7 +4,7 @@ In build environment
 
 3.1- Go to the 
 
-    cd BITBOSS_SASCONTROLLER/Code/DLLs/SerialPortController/Drivers/CP210XRockPI folder
+    cd BITBOSS_BACKUP/Code/DLLs/SerialPortController/Drivers/CP210XRockPI folder
 If you are using ssh to connect board, you can copy the files by using scp
 ```sh
 cd ..
