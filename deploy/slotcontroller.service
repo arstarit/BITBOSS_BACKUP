@@ -1,0 +1,13 @@
+[Unit]
+Description=Slot Serial Logic Using Named Pipes
+Requires=enableports.service
+After=enableports.service
+
+[Service]
+User=root
+WorkingDirectory=/home/rock/bitboss/slotcontroller
+ExecStart=/home/rock/bitboss/slotcontroller/MainController /dev/ttyUSB0 /dev/ttyUSB2
+Restart=always
+[Install]
+WantedBy=multi-user.target
+

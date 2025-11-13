@@ -1,0 +1,18 @@
+pwd
+cd ../../DLLs/SASComms
+dotnet publish -c release 
+pwd
+cd bin/Release/netcoreapp3.0
+pwd
+cp SASComms.dll  ../../../../../DLLs/DLLs/
+
+
+cd ../../../../../BitBossInterface/SASClientConsole
+dotnet publish -c release
+
+cd bin/release/netcoreapp3.0
+
+./SASClientConsole /dev/ttyS0
+
+
+

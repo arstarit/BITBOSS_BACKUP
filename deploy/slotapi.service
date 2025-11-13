@@ -1,0 +1,16 @@
+[Unit]
+Description=Web Api for Slots
+
+[Service]
+WorkingDirectory=/home/rock/bitboss/slotapi
+ExecStart=/home/rock/bitboss/slotapi/BitBossWebApiController
+Restart=always
+# Restart service after 10 seconds if the dotnet service crashes:
+RestartSec=10
+KillSignal=SIGINT
+SyslogIdentifier=slotapi
+User=root
+TimeoutStopSec=30
+
+[Install]
+WantedBy=multi-user.target

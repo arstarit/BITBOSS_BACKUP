@@ -1,0 +1,8 @@
+[Unit]
+Description=EnablePortsService
+[Service]
+Type=simple
+ExecStartPre=/bin/sleep 15
+ExecStart=/bin/bash /usr/bin/EnablePorts.sh
+[Install]
+WantedBy=multi-user.target
