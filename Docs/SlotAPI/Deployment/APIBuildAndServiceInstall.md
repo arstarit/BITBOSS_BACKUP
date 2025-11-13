@@ -7,7 +7,7 @@ Dotnet SDK is used to compile the service. The framework used is .NetCore 3.1. F
 
 ##  1.2  Compile the binaries
 
-Download this repository [BITBOSS_SASCONTROLLER](https://github.com/arstar-it/BITBOSS_SASCONTROLLER).
+Download this repository [BITBOSS_BACKUP](https://github.com/arstarit/BITBOSS_BACKUP).
 
 ###  1.2.1   Web API
 
