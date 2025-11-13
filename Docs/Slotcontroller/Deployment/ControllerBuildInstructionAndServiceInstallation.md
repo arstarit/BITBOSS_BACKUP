@@ -2,7 +2,7 @@
 The purpose of this guide is to explain the building and deployment steps for the MainController (slot controller) project on a rockPi device. A guide to deploy the binary files, how to configure on a rockpi device the Linux services for slot controller and its autostart, and finally, the process to configure the main library for serial port in production environment (Section 2).
 We will use a build-once to deploy-many approach.
 The environments involved in this installation process are the built  environment used to compile the source code and the final production environment. (a rockpi device)
-The API building process is not included on this manual, please refer to this for further details [documentation for API](https://github.com/arstar-it/BITBOSS_SASCONTROLLER/blob/master/Docs/SlotAPI/Deployment/APIBuildAndServiceInstall.md)
+The API building process is not included on this manual, please refer to this for further details [documentation for API](https://github.com/arstarit/BITBOSS_BACKUP/blob/master/Docs/SlotAPI/Deployment/APIBuildAndServiceInstall.md)
 ## Requirements needed for building:
 * Linux environment
 * Dotnet SDK for linux
@@ -11,7 +11,7 @@ The API building process is not included on this manual, please refer to this fo
 ##  1.1  Install Dotnet SDK
 Dotnet SDK is used to compile the slotcontroller. The framework used is .NetCore 3.1. Follow these [instructions](https://learn.microsoft.com/en-us/dotnet/core/install/linux) to install this SDK with .NetCore 3.1.
 ##  1.2  Compile the slot controller binaries
-In build environment, download this repository [BITBOSS_SASCONTROLLER](https://github.com/arstar-it/BITBOSS_SASCONTROLLER).
+In build environment, download this repository [BITBOSS_SASCONTROLLER](https://github.com/arstarit/BITBOSS_BACKUP).
 ###  1.2.1    Build Main Controller
 
 Go to the BITBOSS_SASCONTROLLER folder with
